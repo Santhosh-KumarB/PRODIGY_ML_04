@@ -1,65 +1,95 @@
-✋ Hand Gesture Recognition using Deep Learning
+# Hand Gesture Recognition 🖐️🤖
 
-This project is part of the Prodigy InfoTech Machine Learning Internship – Task 04.
+This project is part of the **Prodigy InfoTech Machine Learning Internship – Task-04**.
 
-The goal of this task is to build a Hand Gesture Recognition system using deep learning techniques that can classify different hand gestures from images.
+The goal of this task is to build a **Hand Gesture Recognition system** using deep learning techniques that can classify different hand gestures from images.
 
-🚀 Project Overview
+---
 
-Dataset: LeapGestRecog (Kaggle)
+## 🚀 Project Overview
 
-Task Type: Image Classification
+Hand gesture recognition plays a crucial role in:
+- Human–Computer Interaction
+- Touchless interfaces
+- Assistive technologies
+- Gesture-based control systems
 
-Model Type: Convolutional Neural Network (CNN)
+In this project, a **Convolutional Neural Network (CNN)** is trained to recognize hand gestures from image data.
 
-Platform: Google Colab
+---
 
-🛠️ Technologies Used
+## 🧠 Model Details
 
-Python
+- Model Type: Convolutional Neural Network (CNN)
+- Framework: TensorFlow / Keras
+- Input: Hand gesture images
+- Output: Gesture class prediction
+- Loss Function: Categorical Crossentropy
+- Optimizer: Adam
 
-TensorFlow / Keras
+---
 
-NumPy
+## 📂 Dataset
 
-Matplotlib
+- Dataset Source: Kaggle – Hand Gesture Recognition Database
+- Dataset Name: `leapGestRecog`
+- Total Classes: 10+ gesture categories
+- Data Format: Image folders (class-wise)
 
-Google Colab
+---
 
-📂 Dataset
+## 🛠️ Technologies Used
 
-Source: Kaggle – LeapGestRecog Dataset
+- Python
+- Google Colab
+- TensorFlow
+- Keras
+- NumPy
+- Matplotlib
+- Kaggle Dataset API
 
-Contains multiple hand gesture classes organized in folders
+---
 
-Images are resized and normalized before training
+## 📊 Workflow
 
-⚙️ Workflow
+1. Dataset download using Kaggle API
+2. Data extraction and preprocessing
+3. Image resizing and normalization
+4. Model building using CNN
+5. Model training and validation
+6. Performance evaluation
 
-Dataset loading and exploration
+---
 
-Image preprocessing
+## ▶️ How to Run (Colab)
 
-CNN model building
+1. Open the notebook in Google Colab
+2. Upload Kaggle API token
+3. Download the dataset
+4. Run all cells sequentially
+5. Train the model and observe accuracy
 
-Model training and validation
+---
 
-Performance evaluation
+## 📌 Internship Task Info
 
-✅ Results
+- Internship: Prodigy InfoTech
+- Track: Machine Learning
+- Task Number: 04
+- Task Name: Hand Gesture Recognition
 
-Model successfully trained to recognize multiple hand gestures
+---
 
-Achieved good accuracy with limited epochs
+## ✅ Status
 
-Demonstrates practical application of CNNs in computer vision
+✔ Dataset Loaded  
+✔ Model Built  
+✔ Training Completed  
+✔ Task-04 Successfully Completed  
 
-📌 Internship Information
+---
 
-Internship: Prodigy InfoTech – Machine Learning
+## 🙌 Author
 
-Task: Task 04 – Hand Gesture Recognition
-
-🔗 Notebook
-
-The complete implementation is available in this repository as a Google Colab notebook.
+**Santhosh Kumar B**  
+Machine Learning Intern – Prodigy InfoTech
