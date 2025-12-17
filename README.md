@@ -87,7 +87,26 @@ In this project, a **Convolutional Neural Network (CNN)** is trained to recogniz
 ✔ Training Completed  
 ✔ Task-04 Successfully Completed  
 
+
 ---
+
+## 🔥 Extra Showcase (Optional)
+
+In addition to the Google Colab notebook implementation, this project is also developed as a **Flask-based web application** as an extra showcase.
+
+The web application allows users to:
+- Upload hand gesture images (PNG / JPG)
+- View the uploaded image directly on the web interface
+- Predict the corresponding hand gesture using a trained CNN model
+- Experience a smooth and error-free prediction flow
+
+This extra implementation demonstrates how a deep learning model can be deployed in a real-world, user-driven web application.
+
+🔗 **Web App Source Code**:  
+👉 https://github.com/Santhosh-KumarB/Hand-Gesture-Recognition
+
+
+
 
 ## 🙌 Author
 
