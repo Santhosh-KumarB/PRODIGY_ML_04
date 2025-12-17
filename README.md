@@ -105,8 +105,7 @@ This extra implementation demonstrates how a deep learning model can be deployed
 🔗 **Web App Source Code**:  
 👉 https://github.com/Santhosh-KumarB/Hand-Gesture-Recognition
 
-
-
+---
 
 ## 🙌 Author
 
